@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="shortcut icon" href="C:\Users\Kiran\Desktop\webtec\project\Images\images.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+<style>
+  body{
+    background-color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+}
+.head{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(233, 13, 13, 0.3);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    rotate:360deg ;
+    
+}
+.head img{
+    width:5.2%;
+
+}
+.head ul{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+   position: absolute;
+   right: 10px;
+}
+.head ul:hover a{
+    color: black;
+}
+.head a{
+    text-decoration: none;
+    font-size: 25px;
+    color:rgb(217, 204, 204);
+}
+.head li:hover a{
+    color: darkorange;
+}
+.carousel-inner img{
+    height: 500px;
+    width: 80%;
+}
+.model{
+    width: 100%;
+    margin: 80px 0px 0px 100px;
+}
+.carousel-control-next-icon{
+    position: relative;
+    right: 280px;
+}
+.recent_img{
+   color: antiquewhite;
+    
+}
+.recent_img:hover{
+    color: aqua;
+}
+.rimg img{
+    height: 100px;
+    width: 15%;
+    /* display:flex; */
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 3px ;
+    /* flex-wrap: wrap; */
+
+}
+.rimg img:hover{
+    transform:rotate(360deg);
+    transition: all 0.5s ease-in;
+    position:sticky ;
+    border-radius: 10%;
+}
+.timg{
+    color: antiquewhite;
+}
+.timg:hover{
+    color: chartreuse;
+}
+.img2 img{
+    height: 100px;
+    width: 15%;
+    /* display:flex; */
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 2px;
+    margin: 3px;
+    /* flex-wrap: wrap; */
+}
+.img2 img:hover{
+    transform: rotate(360deg);
+     transition: all .5s ease-out;
+     border-radius: 100%;
+     margin: 20px;
+}
+.uimg{
+    color: antiquewhite;
+}
+.uimg:hover{
+    color: gold;
+}
+.img3 img{
+    height: 100px;
+    width: 15%;
+    /* display:flex; */
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 2px;
+    margin: 3px;
+    /* flex-wrap: wrap; */
+}
+.img3 img:hover{
+    transform:rotate(10deg);
+    transition: all .2s ease-in-out;
+    opacity: 0.6;
+}
+.lg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+</style>
+</head>
+<body>
+    <!-- navigation Bar start -->
+    <header class="head">
+        <img src="C:\Users\Kiran\Desktop\webtec\project\Images\navlogo.webp" alt="">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#recent">Recent</a></li>
+            <li><a href="#top">Top</a></li>
+            <li><a href="#up">Upcoming</a></li>
+            <li><a href="#lg1">SignIn/LogIn</a></li>
+            <li><a href="##">About</a></li>
+        </ul>
+    </header>
+    <!-- navigation Bar end-->
+    <!-- bootstrap  on-->
+    <div class="model" id="home"><div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"data-bs-interval="3000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://66.media.tumblr.com/330cee9a51e84c61ca7c608152f8921e/tumblr_oa4mugLNN51uhikqxo1_1280.jpg" class="d-block " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/R.5ba610d2c8fbb2495d3bb625cb71cbbf?rik=q4eqWS9m9i8EdQ&riu=http%3a%2f%2fmedia.indiedb.com%2fimages%2fgames%2f1%2f32%2f31065%2fYouTube_Logo.png&ehk=e9vBKYEkTHkDJ%2bZ6oWX6puQmblH79NCgM%2fPi6TGQqoI%3d&risl=&pid=ImgRaw&r=0" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://image.winudf.com/v2/image1/Y29tLlRpcmFtaXN1LkNhclBhcmtpbmdHYW1lUHJvX3NjcmVlbl82XzE1NTQ4OTA3MTdfMDgx/screen-6.jpg?fakeurl=1&type=.jpg" class="d-block " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.ytimg.com/vi/baHRKNJ2Mpc/maxresdefault.jpg" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div></div>
+    <!-- bootstrap -->
+    <div class="recent_img" id="recent">
+    <h2>Recent Games</h2>
+    <div class="rimg"><img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQckpOE1zZ10pVnBOzdveGLB_Mnks2uN54z9w&usqp=CAU" alt="" >
+      <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8X_7M3y-Z_7dcu8DirCJmTXUa8whgUUqlaQ&usqp=CAU" alt="" >
+      <img class="img4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMMQj2gqrjqVW31llDQwdm1nxHKSp4q0MQjw&usqp=CAU" alt="" >
+      <img class="img5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD3upHrusklNmSfTPcQgxcQhP3FaRuLg4bYw&usqp=CAU" alt="" >
+      <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWg05w6-XWMbXx4HNjaxMkoKagSs64d7CI3g&usqp=CAU" alt="" >
+      <img  src="https://i.ytimg.com/vi/86NEpgcRGXU/maxresdefault.jpg" alt="" >
+    <img  src="https://wallpaperset.com/w/full/d/8/a/279881.jpg" alt="" >
+    <img  src="https://wallpapers.com/images/hd/hd-cool-robot-gaming-cover-zhrvdlxab529nys8.jpg" alt="" >
+    <img  src="https://cellularnews.com/images/hd/games-1920X1080-zt40d4jf9js4u97i.jpeg" alt="" >
+    <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLQ8JyK19DkptZukAh24ZknsiFPlORh70Lqw&usqp=CAU" alt="">
+    <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeZWwngs9_rD4Gdmn7-Fj_oz-zegGWuiq7Tg&usqp=CAU" alt="" >
+    <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4zVR6qSGLIzp5UtxWOQKpKy6M-8IHHBLojQ&usqp=CAU" alt="" >
+    </div>
+    </div>
+    <div class="timg" id="top">
+    <h2>Top Games</h2>
+    <div class="img2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnLXZplDs5fHY8CB1n2oWXqHRIprgjgYZUa3EYYBXr4e0xPJSUATJFChQ33acy6DMg-lM&usqp=CAU" alt="">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQVJ0_i1f2khNRwgf1cp7Z8VOPeuuw9CLq0g&usqp=CAU" alt="">
+      <img src="https://wallpaperaccess.com/full/5208260.jpg" alt="">
+      <img src="https://wallpaperaccess.com/full/188977.jpg" alt="">
+      <img src="https://static.toiimg.com/thumb/msid-92906319,width-400,resizemode-4/92906319.jpg" alt="">
+      <img src="https://png.pngtree.com/background/20230410/original/pngtree-adventure-game-snow-mountain-theme-background-picture-image_2383866.jpg" alt="">
+      <img src="https://img.freepik.com/premium-photo/man-stands-front-large-building-with-word-word-it_878402-5911.jpg" alt="">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeCgNaX3oLPqSPPwnTsDC_Ui9TOdD7CKRm8g&usqp=CAU" alt="">
+      <img src="https://i.pinimg.com/originals/33/12/12/331212e60a5a281b46d47e7d05d15f8f.jpg" alt="">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHScggNjG298CQQwxQVubziQIJn75Le0NQHA&usqp=CAU" alt="">
+      <img src="https://c4.wallpaperflare.com/wallpaper/525/215/756/tattoo-prince-of-persia-warrior-within-wallpaper-preview.jpg" alt="" >
+      <img src="https://c4.wallpaperflare.com/wallpaper/495/171/606/shadow-of-the-tomb-raider-2018-puzzle-video-game-wallpaper-preview.jpg" alt=""></div>
+     </div>
+     <div class="uimg" id="up">
+    <h2>Upcoming Games</h2>
+    <div class="img3">
+        <img  src="https://th.bing.com/th/id/R.6d3ffd0b096f16398c318225c4c7b748?rik=rwujIfwma2KPrQ&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f97%2f44%2fgsqrZJ.jpg&ehk=WAp5myMVQ9N9w4H46rwYmkMFYzm5OvJ0eNkNiJgXWLk%3d&risl=&pid=ImgRaw&r=0"alt="" >
+        <img  src="https://th.bing.com/th/id/R.4c7e943a75fdbf58563f7767c1e4ef3a?rik=ytr2nsPFqLC1ww&riu=http%3a%2f%2fwallpaperheart.com%2fwp-content%2fuploads%2f2018%2f08%2f4k-gaming-wallpaper-14.jpg&ehk=HB1xzzq9YisiLvAsIPaBlu67yQPAVGHX9GeaSJIzDD8%3d&risl=&pid=ImgRaw&r=0" alt="" >
+        <img  src="https://wallpapertag.com/wallpaper/middle/a/9/1/810759-large-dishonored-2-wallpapers-1920x1080.jpg" alt="" >
+        <img  src="https://th.bing.com/th/id/R.a9e702daf2e135d6f93dd60c761b54bd?rik=WwwQAQfcUpcmFQ&riu=http%3a%2f%2f3.bp.blogspot.com%2f-fkKC4BLqKQ8%2fVSnFyvaYTiI%2fAAAAAAAABvk%2fiBSj3UMKfW8%2fs1600%2fbloodborne-lore-2-capa.jpg&ehk=WLRV3TuHYoLy2YAWX6F0BBmR%2bM22UkP1W74pKvAzR8c%3d&risl=&pid=ImgRaw&r=0" alt="" >
+        <img  src="https://th.bing.com/th/id/OIP.az3vKiQFtb9VwE8HVamfpgHaEK?pid=ImgDet&rs=1" alt="" >
+        <img  src="https://vignette.wikia.nocookie.net/forzamotorsport/images/6/61/FM5_Audi_2_R8.jpg/revision/latest?cb=20190114173045" alt="">
+        <img  src="https://wallpapercave.com/wp/wp2872482.jpg" alt="" >
+        <img  src="https://www.hdwallpapers.in/download/pubg_playerunknowns_battlegrounds_4-HD.jpg" alt="" >
+        <img  src="https://orig00.deviantart.net/a752/f/2012/234/c/b/wallpaper_mist_of_pandaria_4_by_kikuta8s-d5c0c3h.png" alt="" >
+        <img class="img35" src="https://th.bing.com/th/id/OIP.tVtQBhLlUJUzgifgV8VF5AHaEo?pid=ImgDet&rs=1" alt="">
+        <img  src="https://th.bing.com/th/id/OIP.HtthDM8OwlgVYI-CiqFfVAHaHa?pid=ImgDet&rs=1" alt="" >
+        <img  src="https://wallpapercave.com/wp/wp8147407.jpg" alt="" >
+      </div>
+    </div>
+    <div class="lg" id="lg1">
+      <form action="signup.html">
+      <table>
+        <tr>
+          <td><button>Signup</button></td>
+          <td><button>Cancel</button></td>
+      </tr>
+      </table>
+    </form>
+    </div>
+</body>
+</html>
